@@ -814,7 +814,8 @@ contact.html
 ```
 ## OUTPUT:
 ![Screenshot 2024-04-18 062754](https://github.com/ajinajoshpin/softweb/assets/148514578/de321d49-c405-496b-8b5f-36e8732b78e7)
-
+![Screenshot 2024-04-18 062810](https://github.com/ajinajoshpin/softweb/assets/148514578/601f2673-92b6-4187-852c-576474ff6a3c)
+![Screenshot 2024-04-18 062828](https://github.com/ajinajoshpin/softweb/assets/148514578/72a05446-b384-4dc8-98e5-148dc3d5064d)
 ![Screenshot 2024-04-18 062840](https://github.com/ajinajoshpin/softweb/assets/148514578/292df559-1b5c-48b0-9949-913e9020d345)
 
 ## RESULT:
