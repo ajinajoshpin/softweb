@@ -1,5 +1,5 @@
 # Ex.07 Software Product Company Website
-## Date: 18-04-2024
+## Date: 22-04-2024
 
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
@@ -28,25 +28,24 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-```
 home.html
-
+```
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SOFTWARE DEVELOPMENT COMPANY</title>
+        <title>ZOHO</title>
         <style type="text/css">
             * {
                 margin: 0;
                 padding: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+                font-family: 'Courier New', Courier, monospace;
+                        }
             .banner {
                 width: 100%;
-                height: 100vh;
-                background-image: linear-gradient(rgba(169, 204, 100, 0.75),rgba(174, 206, 100, 0.75));
+                height: 100vh ;
                 background-size: cover;
                 background-position: center;
+
             }
             .navbar {
                 width: 85%;
@@ -57,13 +56,13 @@ home.html
                 justify-content: space-between;
             }
             .logo {
-                color: yellow;
+                color:rgb(180, 244, 173);
                 font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
             }
             span {
-                color: gray;
+                color: white;
             }
             form {
                 width: 300px;
@@ -82,18 +81,18 @@ home.html
                 outline: none;
                 padding: 12px 20px;
                 font-size: 15px;
-                color: gray;
+                color: white;
             } 
             ::placeholder {
-                color: gray;
+                color: white;
             }
             form button {
                 border: 0;
                 outline: none;
                 padding: 5px 20px;
-                color: gray;
+                color:black;
                 border-radius: 10px;
-                background: yellow;
+                background:rgb(180, 244, 173);
                 cursor: pointer;
             }
             .navbar li {
@@ -104,14 +103,14 @@ home.html
             }
             .navbar li a {
                 text-decoration: none;
-                color: gray;
+                color: white;
                 text-transform: uppercase;
             }
             .navbar li:hover {
                 border: 1px;
                 padding: 10px;
-                color: gray;
-                background-color: yellow;
+                color: white;
+                background-color:rgb(180, 244, 173);
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
@@ -124,13 +123,13 @@ home.html
                 text-align: center;
             }
             .text h2 {
-                color: gray;
+                color: white;
                 font-weight: 800;
                 font-size: 50px;
                 letter-spacing: 3px;
             }
             .text p {
-                color: gray;
+                color: white;
                 text-transform: capitalize;
                 font-size: 15px;
                 margin-bottom: 30px;
@@ -139,54 +138,54 @@ home.html
             }
             .login {
                 margin: 0px 10px;
-                border: 2px solid yellow;
+                border: 2px solid rgb(180, 244, 173);
                 padding: 13px 35px;
                 letter-spacing: 1px;
-                color: gray;
+                color:black;
                 border-radius: 30px;
-                background-color: yellow;
+                background-color: rgb(180, 244, 173);
                 text-decoration: none;
             }
             .login:hover {
-                border: 2px solid yellow;
-                color: yellow;
-                background-color: gray;
+                border: 2px solid rgb(180, 244, 173);
+                color: rgb(180, 244, 173);
+                background-color: white;
                 transition: 0.5s;
                 cursor: pointer;
             } 
             .signup {
                 margin: 0px 10px;
-                border: 2px solid yellow;
+                border: 2px solid rgb(180, 244, 173);
                 padding: 13px 35px;
                 letter-spacing: 1px;
-                color: gray;
+                color:black;
                 border-radius: 30px;
-                background-color: yellow;
+                background-color:  rgb(180, 244, 173);
                 text-decoration: none;
             }
             .signup:hover {
-                border: 2px solid yellow;
-                color: yellow;
-                background-color: gray;
+                border: 2px solid rgb(180, 244, 173);
+                color: rgb(180, 244, 173);
+                background-color: white;
                 transition: 0.5s;
                 cursor: pointer;
             }
             footer {
-                background-color: yellow;
+                background-color: rgb(180, 244, 173);
                 margin-top: auto;
             }
         </style>
     </head>
-<body>
+<body background="web.jpg">
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">ZOHO</h1>
+            <h1 class="logo">Z<span>OHO</span>
             <ul>
-                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
-                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
-                <li><a href="http://127.0.0.1:8000/static/people.html"> People </a></li>
-                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
+                <li><a href="homepage.html"> Home </a></li>
+                <li><a href="Products.html"> Products </a></li>
+                <li><a href="person.html"> People </a></li>
+                <li><a href="contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -195,10 +194,9 @@ home.html
         </div>
         <div class="content">
             <div class="text">
-                <h2> Software Development Company </h2>
+                <h2> Software Development Company</h2>
                 <br>
                 <p> Welcome to ZOHO,Your life's work,powered by our life's work </p>
-                <br>
                 <div>
                     <a href="#" class="login"> Log In </a>
                     <a href="#" class="signup"> Sign Up </a>
@@ -207,54 +205,45 @@ home.html
         </div>  
     </div>
     <footer>
-        <center> Designed and Developed by AJINA JOSHPIN (212223230008)</center>
+        <center> Designed and Developed by  AJINA JOSHPIN (212223230008) </center>
     </footer>
 </body>
 </html>
-
-
-product.html
-
+```
+products.html
+```
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Product Page </title>
+        <title>ZOHO</title>
         <style type="text/css">
             * {
                 margin: 0;
                 padding: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+                font-family: 'Courier New', Courier, monospace;
+                        }
             .banner {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(169, 204, 100, 0.75),rgba(174, 206, 100, 0.75));
                 background-size: cover;
                 background-position: center;
             }
             .navbar {
-                width: 85%;
+                width: 100%;
                 margin: auto;
                 padding: 35px 0;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
             }
-            .bg-product {
-                border: 1px;
-                padding: 10px;
-                color: gray;
-                background-color: yellow;
-                border-radius: 30px;
-            }
             .logo {
-                color: yellow;
+                color:rgb(180, 244, 173);
                 font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
             }
             span {
-                color: gray;
+                color: white;
             }
             form {
                 width: 300px;
@@ -273,18 +262,18 @@ product.html
                 outline: none;
                 padding: 12px 20px;
                 font-size: 15px;
-                color: gray;
+                color: white;
             } 
             ::placeholder {
-                color: gray;
+                color: white;
             }
             form button {
                 border: 0;
                 outline: none;
                 padding: 5px 20px;
-                color: gray;
+                color:black;
                 border-radius: 10px;
-                background: yellow;
+                background:rgb(180, 244, 173);
                 cursor: pointer;
             }
             .navbar li {
@@ -295,14 +284,14 @@ product.html
             }
             .navbar li a {
                 text-decoration: none;
-                color: gray;
+                color: white;
                 text-transform: uppercase;
             }
             .navbar li:hover {
                 border: 1px;
                 padding: 10px;
-                color: gray;
-                background-color: orange;
+                color: white;
+                background-color:rgb(180, 244, 173);
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
@@ -318,44 +307,43 @@ product.html
                 gap: 20px;
             }
             .container .box-container .box {
-                color: gray;
+                color: white;
                 box-shadow: 0 5px 10px rgba(0,0,0,.2);
-                border-radius: 20px;
+                border-radius: 10px;
                 background: transparent;
-                border: 1px solid gray;
-                padding: 50px 2px;
+                border: 1px solid white;
+                padding: 10px 5px;
             }
             .container .box-container .box img {
                 height: 50px;
-                border-radius: 30px;
+                border-radius: 20px;
             }
             .container .box-container .box h3 {
-                color: yellow;
-                font-size: small;
+                color: rgb(180, 244, 173);
+                font-size: large;
                 padding: 10px 0;
             }
             .container .box-container .box p {
-                color: gray;
+                color: white;
                 font-size: small;
                 line-height: 1.5;
-                     
             }
             footer {
-                background-color: yellow;
+                background-color: rgb(180, 244, 173);
                 margin-top: auto;
             }
         </style>
     </head>
-<body>
+<body background="web.jpg">
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">ZOHO</h1>
+            <h1 class="logo">Z<span>OHO</span>
             <ul>
-                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
-                <li><a href="http://127.0.0.1:8000/static/product.html" class="bg-product"> Products </a></li>
-                <li><a href="http://127.0.0.1:8000/static/people.html"> People </a></li>
-                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
+                <li><a href="homepage.html"> Home </a></li>
+                <li><a href="Products.html"> Products </a></li>
+                <li><a href="person.html"> People </a></li>
+                <li><a href="contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -404,32 +392,38 @@ product.html
                     <h3> CodeBoost Accelerator </h3>
                     <p> Optimized code efficiency tools. </p>
                 </div>
+                <div class="box">
+                    <h3> CRM </h3>
+                    <p>  intelligent cloud management platform offer better cloud visibility infrastructure to customers </p>
+                </div>
+                <div class="box">
+                    <h3>NIVEUS </h3>
+                    <p>an online scripting language integrated with Zoho Creator</p>
                 </div>
             </div>
         </div>
     </div>
     <footer>
-        <center> Designed and Developed by AJINA JOSHPIN (212223230008) </center>
+        <center> Designed and Developed by  AJINA JOSHPIN (212223230008) </center>
     </footer>
 </body>
 </html>
-
+```
 people.html
-
+```
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> people page </title>
+        <title>ZOHO</title>
         <style type="text/css">
             * {
                 margin: 0;
                 padding: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+                font-family: 'Courier New', Courier, monospace;
+                        }
             .banner {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(169, 204, 100, 0.75),rgba(174, 206, 100, 0.75));
                 background-size: cover;
                 background-position: center;
             }
@@ -441,21 +435,14 @@ people.html
                 align-items: center;
                 justify-content: space-between;
             }
-            .bg-people {
-                border: 1px;
-                padding: 10px;
-                color: gray;
-                background-color: yellow;
-                border-radius: 30px;
-            }
             .logo {
-                color: yellow;
+                color:rgb(180, 244, 173);
                 font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
             }
             span {
-                color: gray;
+                color: white;
             }
             form {
                 width: 300px;
@@ -474,18 +461,18 @@ people.html
                 outline: none;
                 padding: 12px 20px;
                 font-size: 15px;
-                color: gray;
+                color: white;
             } 
             ::placeholder {
-                color: gray;
+                color: white;
             }
             form button {
                 border: 0;
                 outline: none;
                 padding: 5px 20px;
-                color: gray;
+                color:black;
                 border-radius: 10px;
-                background: yellow;
+                background:rgb(180, 244, 173)
                 cursor: pointer;
             }
             .navbar li {
@@ -496,14 +483,14 @@ people.html
             }
             .navbar li a {
                 text-decoration: none;
-                color: gray;
+                color: white;
                 text-transform: uppercase;
             }
             .navbar li:hover {
                 border: 1px;
                 padding: 10px;
-                color: gray;
-                background-color: yellow;
+                color: white;
+                background-color:rgb(180, 244, 173);
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
@@ -516,37 +503,36 @@ people.html
             }
             .image table {
                 border: 0;
-                color: gray;
+                color: white;
                 position: relative;
                 left: 150px;
             }
             .image table img {
                 height: 140px;
                 width: 140px;
-                border: 2px solid gray;
+                border: 2px solid white;
                 padding: 5px;
                 border-radius: 50%;
             }
             .image table td {
-                color: yellow;
+                color: rgb(180, 244, 173);
             }
             footer {
-                background-color: yellow;
+                background-color: rgb(180, 244, 173);
                 margin-top: auto;
             }
         </style>
     </head>
-<body>
+<body background="web.jpg">
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">ZOZHO</h1>
+            <h1 class="logo">Z<span>OHO</span>
             <ul>
-                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
-                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
-                <li><a href="http://127.0.0.1:8000/static/people.html" class="bg-people"> People </a></li>
-                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
-            </ul>
+                <li><a href="homepage.html"> Home </a></li>
+                <li><a href="Products.html"> Products </a></li>
+                <li><a href="person.html"> People </a></li>
+                <li><a href="contact.html"> Contact </a></li>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
                 <button type="submit"> Search </button>
@@ -555,18 +541,20 @@ people.html
         <div class="image">
             <table cellspacing="20"> 
                 <tr align="center">
-                    <td> <img src=C:\Users\admin\Downloads\ajinapic.jpg> </td>
-                    <td> <img src="C:\Users\admin\Downloads\taehyung web.jpg"> </td>
-                    <td> <img src="C:\Users\admin\Downloads\jungkook web.png"> </td>
-                    <td> <img src="C:\Users\admin\Downloads\jimin web.jpg"> </td>
-                    <td> <img src="C:\Users\admin\Downloads\suga web.jpg"> </td>
+                    <td> <img src="ajina.jpg"> </td>
+                    <td> <img src="jin.webp"> </td>
+                    <td> <img src="rm.jpg"> </td>
+                    <td> <img src="suga.jpg"> </td>
+                    <td> <img src="jungkook.png"> </td>
+                    <td> <img src="jimin.jpg"> </td>
                 </tr>
-                <tr align="center">*
-                    <th> AJINA JOSHPIN</th>
-                    <th>TAEHYUNG</th>
-                    <th>JUNGKOOK</th>
-                    <th>JIMIN</th>
-                    <th>SUGA</th>
+                <tr align="center">
+                    <th> Ajina JOSHPIN </th>
+                    <th> jin </th>
+                    <th> Rm </th>
+                    <th> Suga </th>
+                    <th> jungkook </th>
+                    <th> jimin </th>
                 </tr>
                 <tr align="center">
                     <td> CEO </td>
@@ -574,32 +562,32 @@ people.html
                     <td> CTO, Co-Founder </td>
                     <td> Director </td>
                     <td> Asst. Director </td>
+                    <td> Dy. Director </td>
                 </tr>
             </table>
         </div>
     </div>
     <footer>
-        <center> Designed and Developed by AJINA JOSHPIN (212223230008)</center>
+        <center> Designed and Developed by AJINA JOSHPIN (212223230008) </center>
     </footer>
 </body>
 </html>
-
+```
 contact.html
-
+```
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Contact Us Page </title>
+        <title>ZOHO</title>
         <style type="text/css">
             * {
                 margin: 0;
                 padding: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+                font-family: 'Courier New', Courier, monospace;
+                        }
             .banner {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(169, 204, 100, 0.75),rgba(174, 206, 100, 0.75));
                 background-size: cover;
                 background-position: center;
             }
@@ -611,51 +599,44 @@ contact.html
                 align-items: center;
                 justify-content: space-between;
             }
-            .bg-contact {
-                border: 1px;
-                padding: 10px;
-                color: gray;
-                background-color: yellow;
-                border-radius: 30px;
-            }
             .logo {
-                color: yellow;
+                color:rgb(180, 244, 173);
                 font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
             }
             span {
-                color: gray;
+                color: white;
             }
-            .navbar form {
+            form {
                 width: 300px;
                 height: 40px;
                 display: flex;
-                background: yellow(255, 255, 255, 0.2);
+                background: rgba(255, 255, 255, 0.2);
                 padding: 1px 1px;
                 font-size: 15px;
                 border-radius: 10px;
                 backdrop-filter: blur(4px) saturate(180%);
             }
-            .navbar form input {
+            form input {
                 background: transparent;
                 flex: 1;
                 border: 0;
                 outline: none;
                 padding: 12px 20px;
                 font-size: 15px;
-                color: gray;
+                color: white;
             } 
             ::placeholder {
-                color: gray;
+                color: white;
             }
-            .navbar form button {
+            form button {
                 border: 0;
                 outline: none;
                 padding: 5px 20px;
-                color: gray;
+                color:black;
                 border-radius: 10px;
-                background: yellow;
+                background:;
                 cursor: pointer;
             }
             .navbar li {
@@ -666,14 +647,14 @@ contact.html
             }
             .navbar li a {
                 text-decoration: none;
-                color: gray;
+                color: white;
                 text-transform: uppercase;
             }
             .navbar li:hover {
                 border: 1px;
                 padding: 10px;
-                color: gray;
-                background-color: yellow;
+                color: white;
+                background-color:rgb(180, 244, 173);
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
@@ -688,7 +669,7 @@ contact.html
             .box-1 {
                 height: 400px;
                 width: 400px;
-                border: 3px solid gray;
+                border: 3px solid white;
                 border-radius: 20px;
                 background: transparent;
                 position: relative;
@@ -697,7 +678,7 @@ contact.html
             .box-2 {
                 height: 400px;
                 width: 400px;
-                border: 3px solid yellow;
+                border: 3px solid rgb(180, 244, 173);
                 border-radius: 20px;
                 background: transparent;
                 position: relative;
@@ -705,7 +686,7 @@ contact.html
             }
             .box-1 form {
                 display: flex;
-                color: gray;
+                color: white;
                 background: transparent;
                 padding: 10px;
                 font-size: 15px;
@@ -715,68 +696,68 @@ contact.html
             .box-1 form input {
                 background: transparent;
                 display: flex;
-                border: 1px solid gray;
+                border: 1px solid white;
                 border-radius: 10px;
                 padding: 15px 30px;
                 font-size: 15px;
-                color: gray;
+                color: white;
                 position: relative;
                 top: 30px;
             }
             .box-1 form textarea {
                 background: transparent;
-                color: gray;
+                color: white;
                 padding: 15px 10px;
                 position: relative;
                 top: 30px;
                 left: 30px;
-                border: 1px solid gray;
+                border: 1px solid white;
                 border-radius: 10px;
             }
             .box-1 form button {
                 border: 0;
                 outline: none;
                 padding: 10px 20px;
-                color: gray;
+                color: white;
                 border-radius: 30px;
-                background: yellow;
+                background: rgb(180, 244, 173);
                 cursor: pointer;
                 position: relative;
                 top: 50px;
             }
             .box-2 h2 {
-                color: gray;
+                color: white;
                 position: relative;
                 top: 25px;
                 left: 50px;
                 font-size: 30px;
             }
             .box-2 p {
-                color: gray;
+                color: white;
                 position: relative;
                 top: 50px;
                 padding: 10px 80px;
             }
             .box-2 span {
-                color: yellow;
+                color: rgb(180, 244, 173);
                 font-size: 20px;
             }
             footer {
-                background-color: yellow;
+                background-color: rgb(180, 244, 173);
                 margin-top: auto;
             }
         </style>
     </head>
-<body>
+<body background="web.jpg">
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">ZOHO</h1>
+            <h1 class="logo">Z<span>OHO</span>
             <ul>
-                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
-                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
-                <li><a href="http://127.0.0.1:8000/static/people.html"> People </a></li>
-                <li><a href="http://127.0.0.1:8000/static/contact.html" class="bg-contact"> Contact </a></li>
+                <li><a href="homepage.html"> Home </a></li>
+                <li><a href="Products.html"> Products </a></li>
+                <li><a href="person.html"> People </a></li>
+                <li><a href="contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -792,7 +773,7 @@ contact.html
                         <br>
                         <input type="email" placeholder="Your Email">
                         <br>
-                        <textarea rows="4" cols="40" placeholder="Your Message"> </textarea>
+                        <textarea rows="4" cols="30" placeholder="Your Message"> </textarea>
                         <br>
                         <button type="submit"> Submit </button>
                     </center>
@@ -807,16 +788,17 @@ contact.html
         </div>
     </div>
     <footer>
-        <center> Designed and Developed by AJINA JOSHPIN (212223230008) </center>
+        <center> Designed and Developed by AJINA JOSHPIN (212223230008)</center>
     </footer>
 </body>
 </html>
 ```
 ## OUTPUT:
-![Screenshot 2024-04-18 062754](https://github.com/ajinajoshpin/softweb/assets/148514578/de321d49-c405-496b-8b5f-36e8732b78e7)
-![Screenshot 2024-04-18 062810](https://github.com/ajinajoshpin/softweb/assets/148514578/601f2673-92b6-4187-852c-576474ff6a3c)
-![Screenshot 2024-04-18 062828](https://github.com/ajinajoshpin/softweb/assets/148514578/72a05446-b384-4dc8-98e5-148dc3d5064d)
-![Screenshot 2024-04-18 062840](https://github.com/ajinajoshpin/softweb/assets/148514578/292df559-1b5c-48b0-9949-913e9020d345)
+![Screenshot 2024-04-23 060507](https://github.com/ajinajoshpin/softweb/assets/148514578/8c345cc8-b9d9-4100-8049-b9c0d2ce152f)
+![Screenshot 2024-04-23 060527](https://github.com/ajinajoshpin/softweb/assets/148514578/1d2a1242-7bc4-4f5f-b7a8-32f7b2925b2c)
+![Screenshot 2024-04-23 060542](https://github.com/ajinajoshpin/softweb/assets/148514578/bae279ce-ebba-4a1e-a4c7-2a57752157e2)
+![Screenshot 2024-04-23 060601](https://github.com/ajinajoshpin/softweb/assets/148514578/65cb16e8-e9a7-4e7f-b3e6-afaf53f2388d)
+
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
